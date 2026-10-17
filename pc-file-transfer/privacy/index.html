@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="How PC File Transfer handles local file transfers, pairing information, advertising, consent and privacy choices.">
+  <link rel="canonical" href="https://rdappsdev-sys.github.io/pc-file-transfer/privacy/">
+  <title>PC File Transfer &mdash; Privacy Policy</title>
+  <style>
+    body {font-family:Arial,sans-serif;max-width:850px;margin:0 auto;padding:40px 24px;line-height:1.65;color:#202124;background:#fff}
+    h1,h2 {color:#111827}h1 {margin-bottom:4px}h2 {margin-top:32px}
+    .updated {color:#6b7280;margin-top:0}
+    a {color:#087f8c;text-underline-offset:3px;overflow-wrap:anywhere}a:hover {color:#035363}
+    a:focus-visible {outline:2px solid #087f8c;outline-offset:3px}
+    li {margin-bottom:8px}
+    footer {margin-top:50px;padding-top:20px;border-top:1px solid #ddd;color:#6b7280}
+    @media(max-width:600px) {body {padding:24px 18px}h1 {font-size:1.8rem}}
+  </style>
+</head>
+<body>
+<nav aria-label="Back to product"><a href="../">&larr; PC File Transfer</a></nav>
+<main>
+<h1>PC File Transfer &mdash; Privacy Policy</h1>
+<p class="updated">Last updated: October 17, 2026</p>
+<p>PC File Transfer is developed by RD Apps Studio. This policy explains how information is handled by the Android application and its Windows and Linux Companions. Local file-transfer processing is separate from information handled by advertising services.</p>
+
+<h2>Local Network File Transfers</h2>
+<p>PC File Transfer sends files directly between your Android device and a paired computer over your local Wi-Fi or LAN. Transfers use authenticated, encrypted HTTPS connections with certificate pinning. File contents, names and sizes are processed to select, send, receive and display transfer progress.</p>
+<p>We do not provide cloud storage for transferred files or route those files through RD Apps Studio servers. The core transfer functionality does not require an account with us or an internet connection. Advertising and opening external websites can use the internet. A file provider or destination folder that you choose may independently use cloud synchronization under that provider's own terms.</p>
+
+<h2>Information Stored on Your Devices</h2>
+<p>The app and Companions store information locally to recognize paired devices and reconnect securely. This includes device names, generated device identifiers, local network addresses, operating-system information, authentication credentials or credential hashes, and certificate information. Security credentials are protected using the storage mechanisms implemented for each platform.</p>
+<p>Settings and recent transfer history are also stored locally. Recent entries can include file names, sizes, transfer direction, completion time and references to received files or source folders. The Android app keeps the last three completed transfer entries. Received files are saved separately in local storage.</p>
+
+<h2>Google AdMob Advertising</h2>
+<p>The Android app includes Google AdMob through the Google Mobile Ads SDK. Advertising can involve data collection and sharing by Google, separately from the app's direct LAN transfers. Depending on the SDK, settings and applicable choices, this can include:</p>
+<ul>
+  <li>Device and other identifiers, such as the Android advertising ID and app set ID.</li>
+  <li>IP address, which may be used to estimate approximate location.</li>
+  <li>Ad and product interactions, such as ad views, taps and other engagement.</li>
+  <li>Diagnostic and performance information about the app and advertising SDK.</li>
+</ul>
+<p>Google uses advertising-related information for purposes including serving and measuring ads, analytics, security and fraud prevention. Our advertising integration does not provide your transferred files or their names to AdMob.</p>
+<p>For Google's practices and available controls, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads SDK data disclosures</a>. Google's handling and retention of its data are governed by its own policies and applicable settings.</p>
+
+<h2>Consent and Privacy Choices</h2>
+<p>The Android app uses Google's User Messaging Platform (UMP) to update consent information and show a consent form when required. Ad requests are made only when UMP indicates that the app can request ads. An error during consent collection does not bypass that check.</p>
+<p>When UMP requires a privacy-options entry point, <strong>Privacy choices</strong> appears in the app's Settings. You can use it to review or change the choices made available by Google. Available messages and choices depend on region and advertising configuration. Android also provides controls for the advertising identifier.</p>
+
+<h2>Camera, Notifications and Background Transfers</h2>
+<p>The camera permission is used to scan a Companion's pairing QR code. Notifications show connection and transfer status, including file information where enabled. Android notification settings control how notifications appear, including on the lock screen.</p>
+<p>A foreground service supports receiving and transferring files while the app is in the background. It may display a quiet listening notification and transfer progress. The app can request battery-optimization permission to support screen-off receiving, and you can manage background listening and notifications in Settings. Availability remains subject to Android and device power-management restrictions.</p>
+
+<h2>Local File Access and Deletion</h2>
+<p>You choose outgoing files using Android's file picker or sharing controls. Received Android files are saved in Downloads / PC File Transfer. On a computer, files are saved to the configured destination folder.</p>
+<p>You can delete completed files using your device's file manager. Removing an entry from recent transfer history removes the history entry, not the completed file. An incomplete file being received is removed when that file fails or is cancelled; files already completed remain saved.</p>
+<p>Clearing the Android app's storage or uninstalling it removes its private settings, pairing information and history. This does not necessarily remove received files in Downloads, copies on another device, or Companion data. Removing data on one device does not automatically remove pairing records or files from another device. Companion settings and pairing records are stored in the computer user's local application-data directory and can be removed separately after closing the Companion.</p>
+<p>Clearing local app data does not delete information already handled by Google. Use Google's own privacy information and controls for questions about its data; we do not promise a particular retention or deletion period for Google-held information.</p>
+
+<h2>Accounts and Registration</h2>
+<p>No mandatory account or registration is required to pair devices and transfer files. Pairing records are local device information, not an RD Apps Studio online account.</p>
+
+<h2>Website and External Links</h2>
+<p>The PC File Transfer product landing page includes Cloudflare Web Analytics for website usage information. This is separate from the Android app's advertising and local transfers. See the <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>. Opening external links is subject to the destination website's privacy practices.</p>
+
+<h2>Changes to This Policy</h2>
+<p>We may update this policy as features or data practices change. The current version will be published on this page with an updated date.</p>
+
+<h2>Contact</h2>
+<p>For privacy questions or support regarding PC File Transfer, contact RD Apps Studio using the developer contact information provided on the application's Google Play listing. You can also find the studio's public project information on <a href="https://github.com/rdappsdev-sys">RD Apps Studio on GitHub</a>.</p>
+</main>
+<footer><p>&copy; 2026 RD Apps Studio &middot; PC File Transfer</p><p><a href="../">Back to PC File Transfer</a></p></footer>
+</body>
+</html>
